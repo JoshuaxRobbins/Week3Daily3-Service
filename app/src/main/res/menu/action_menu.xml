@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_start"
+        app:showAsAction="always"
+        android:icon="@drawable/play_image"
+        android:title="Back" />
+
+    <item
+        android:id="@+id/action_pause"
+        app:showAsAction="always"
+        android:icon="@drawable/pause_image"
+        android:title="Clear Preferences" />
+
+    <item
+        android:id="@+id/action_stop"
+        app:showAsAction="always"
+        android:icon="@drawable/stop_image"
+        android:title="Increase Text Size" />
+
+</menu>
