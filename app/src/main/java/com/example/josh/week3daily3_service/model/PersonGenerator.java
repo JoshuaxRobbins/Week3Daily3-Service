@@ -38,7 +38,7 @@ public class PersonGenerator {
     public static String getRandomName(){
         List<String> names = new ArrayList<>();
         names.add("Josh");
-        names.add("Assem");
+//        names.add("Assem"); RIP
         names.add("Nathan");
         names.add("Keenen");
         names.add("Tim");

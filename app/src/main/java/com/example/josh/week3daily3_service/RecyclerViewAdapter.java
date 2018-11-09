@@ -15,6 +15,11 @@ import java.util.List;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
     List<Person> personList;
+
+    public RecyclerViewAdapter(List<Person> personList) {
+        this.personList = personList;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {

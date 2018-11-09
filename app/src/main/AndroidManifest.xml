@@ -26,8 +26,11 @@
         <service
             android:name=".services.MyIntentService"
             android:exported="false" />
-
-        <activity android:name=".RecyclerActivity"></activity>
+        <service
+            android:name=".services.NPService"
+            android:enabled="true"
+            android:process=":externalProcess"
+            android:exported="true"></service>
     </application>
 
 </manifest>
